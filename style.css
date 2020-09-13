@@ -1,14 +1,12 @@
-body{padding:0px; margin:0px; background-color:#04A6BA;
+body{padding:0px; margin:0px; background-color:#04A6BA; min-height:600px;
       
 }
 
 form{color:white;
      font-size:20px;
      margin-bottom:50px;
-}
-
-.container{max-width:600px;
-           margin:0px auto;
+     width:550px;
+     margin:0px auto;
 }
 
 #title{text-align:center;
@@ -36,25 +34,22 @@ form{color:white;
              padding:30px;          
 }
 
-#name{width:99%;
+#name{width:540px;
       height:30px;
 }
 
 .form-control{margin-bottom:10px;}
 
-#login{width:99%;
+#login{width:540px;
        height:30px;}
 
 p span{font-size:15px;}
 
-#age{width:99%;
+#age{width:540px;
      height:30px;
 }
 
-select{font-size:20px;
-       
-       
-}
+select{font-size:20px;}
 
 .form-group p{margin-top:15px;
               margin-bottom:10px;
@@ -67,17 +62,16 @@ select{font-size:20px;
 
 .form-group:last-child p{font-size:30px;}
 
-.form-group:last-child textarea{width:99%;
+.form-group:last-child textarea{width:545px;
                                 height:100px;
                                 resize: none;}
 
 #submit{margin-top:20px;
-        width:100%;
+        width:545px;
         height:40px;
         background-color:#318CE7;
         border:2px solid #318CE7;
         cursor:pointer;
         font-size:20px;
         color:white;}
-
 
