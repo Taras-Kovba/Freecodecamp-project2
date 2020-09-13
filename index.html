@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=">
+  <link rel="stylesheet" href="style.css">
+  <title>project</title>
+</head>
+<body>
+ <div class="wrapper">
+   <div class="container">
+     <header>
+      <h1 id="title">Funny survey form</h1>
+      <p id="description">Thank you for taking the time to help         me</p>
+     </header>
+      <form id="survey-form">
+        <p>Name</p>
+        <label class="name-label">
+        <input type="text" name="name" id="name" class="form-control" placeholder="Enter your name" required/>
+        </label>
+        <p>Email</p>
+        <label class="email-label">
+          <input type="email" name="login" id="login" class="form-control" placeholder="Enter your name" required>
+        </label>
+        <p>Age <span>(optional)</span></p>
+        <label class="age-label">
+          <input type="number" name="age" id="age" class="form-control" min="13" max="100">
+        </label>
+        <div class="form-group">     
+          <p>Which is better dogs or cats</p>
+      <select id="dropdown" name="role" class="form-control" required>
+        <option disabled selected value>Select the better</option>
+        <option value="Dogs">Dogs</option>
+        <option value="Cats">Cats</option>
+        <option value="Dogs-and-cats">Dogs and cats</option>
+      </select>
+        </div>
+        <div class="form-group">
+          <p>Choose the character of your pet</p>
+       <label
+        ><input
+          name="prefer"
+          value="lazy"
+          type="checkbox"
+          class="input-checkbox"
+        />Lazy</label
+      >
+      <label>
+        <input
+          name="prefer"
+          value="playful"
+          type="checkbox"
+          class="input-checkbox"
+        />Playful</label
+      >
+      <label
+        ><input
+          name="prefer"
+          value="funny"
+          type="checkbox"
+          class="input-checkbox">Funny</label>
+         </div>
+        <div class="form-group">
+          <p>Discribe your pet</p>
+          <textarea id=""></textarea>
+          <button type="submit" id="submit">
+        Submit
+        </button>
+        </div>
+      </form>
+   </div>
+</div>
+</body>
+</html>
